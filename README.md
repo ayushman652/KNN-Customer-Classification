@@ -28,7 +28,11 @@ The project goes beyond a single KNN model by systematically evaluating **K valu
 
 ## Dataset
 
-The project uses the `teleCust1000t.csv` telecommunications customer dataset.
+The project uses the `teleCust1000t.csv` telecommunications customer dataset from IBM's Machine Learning repository.
+
+**Dataset:** [Telecommunications Customer Dataset](https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/teleCust1000t.csv)
+
+The dataset contains 1,000 customer records and 11 input features used to classify customers into four service categories.
 
 ### Dataset Statistics
 
@@ -327,18 +331,6 @@ The program will:
 - Distance-based methods can become less effective when the feature space contains weak or noisy dimensions.
 - The experiment evaluates K from 1 to 100; broader hyperparameter optimization was not performed.
 - Accuracy alone does not provide a complete view of multiclass classification performance.
-
-## Future Improvements
-
-Potential extensions include:
-
-- Testing different distance metrics.
-- Exploring feature selection.
-- Applying dimensionality reduction.
-- Comparing KNN with other classification algorithms.
-- Evaluating precision, recall, and F1-score.
-- Using cross-validation for more robust K selection.
-- Investigating alternative feature representations.
 
 ## Conclusion
 
